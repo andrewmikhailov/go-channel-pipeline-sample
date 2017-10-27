@@ -5,5 +5,10 @@ import (
 )
 
 func main() {
-	fmt.Printf("Hello, world!\n")
+	first := make(chan string)
+	second := make(chan string)
+	third := make(chan string)
+	fmt.Printf("\nFirst channel:\n", first, "\n")
+	fmt.Printf("\nSecond channel:\n", second, "\n")
+	fmt.Printf("\nThird channel:\n", third, "\n")
 }
